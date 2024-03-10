@@ -1,0 +1,60 @@
+window {
+  font-size: 30px;
+  font-family: 'FantasqueSansMNF-Regular';
+  background-color: transparent;
+}
+
+#outer-box {
+  border-radius: 10px;
+  background: linear-gradient( to right , TMP_COLOR6 , TMP_COLOR15 ); 
+  padding: 4px;
+}
+
+#input {
+  background-color: TMP_COLOR8;
+  border-radius: 5px;
+  color: TMP_COLOR3;
+  padding: 0.25em;
+  border: none
+  box-shadow: none;
+}
+
+#input:focus {
+  border-radius: 5px;
+  outline: none;
+  box-shadow: none;
+}
+
+#inner-box {
+  padding-top: 5;
+}
+
+#img {
+  border-right: 3px solid TMP_COLOR4;
+}
+
+#text {
+  color: TMP_COLOR3;
+  font-weight: lighter;
+}
+
+#text:selected {
+  font-family: 'IntoneMonoNF';
+  color: TMP_COLOR5;
+  font-weight: normal;
+}
+
+#entry {
+  background-color: rgba( RGB_TMP_COLOR8 , 0.6 );
+  padding: 0.30em;
+}
+
+#entry:selected {
+  background: linear-gradient( 10deg , TMP_COLOR8 , TMP_COLOR6 );
+}
+
+image {
+  margin-left: 0.25em;
+  margin-right: 0.25em;
+  padding-right: 10px;
+}

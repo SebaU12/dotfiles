@@ -1,0 +1,60 @@
+ window {
+ font-size: 30px;
+ font-family: 'FantasqueSansMNF-Regular';
+ background-color: transparent;
+ }
+
+ #outer-box {
+ border-radius: 10px;
+ background: linear-gradient( to right , #B09590 , #C9A291 );
+ padding: 4px;
+ }
+
+ #input {
+ background-color: #ded2cc;
+ border-radius: 5px;
+ color: #956F65;
+ padding: 0.25em;
+ border: none
+ box-shadow: none;
+ }
+
+ #input:focus {
+ border-radius: 5px;
+ outline: none;
+ box-shadow: none;
+ }
+
+ #inner-box {
+ padding-top: 5;
+ }
+
+ #img {
+ border-right: 3px solid #A3847C;
+ }
+
+ #text {
+ color: #956F65;
+ font-weight: lighter;
+ }
+
+ #text:selected {
+ font-family: 'IntoneMonoNF';
+ color: #747484;
+ font-weight: normal;
+ }
+
+ #entry {
+ background-color: rgba( 222 , 210 , 204 , 0.6 );
+ padding: 0.30em;
+ }
+
+ #entry:selected {
+ background: linear-gradient( 10deg , #ded2cc , #B09590 );
+ }
+
+ image {
+ margin-left: 0.25em;
+ margin-right: 0.25em;
+ padding-right: 10px;
+ }

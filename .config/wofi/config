@@ -1,0 +1,9 @@
+mode=drun
+allow_images=true
+image_size=35
+width=50%
+lines=10
+term=foot
+hide_scroll=true
+no_actions=true
+insensitive=true

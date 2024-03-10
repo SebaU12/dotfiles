@@ -1,0 +1,56 @@
+{ "position": "top", // Waybar position (top|bottom|left|right)
+    "height": 35, // Waybar height (to be removed for auto height)
+    "spacing": 0, // Gaps between modules (4px)
+
+    // Choose the order of the modules
+    "modules-left": ["custom/arch", "hyprland/workspaces"],
+    "modules-center": ["group/timedata"],
+    //"modules-right": ["mpd", "idle_inhibitor", "pulseaudio", "network", "cpu", "memory", "temperature", "backlight", "keyboard-state", "sway/language", "battery", "battery#bat2", "clock", "tray"],
+    "modules-right": ["custom/opengpt"],
+    // Modules configuration
+    "custom/arch":{
+      "format":"󰣇",
+      "tooltip": false
+    },
+      "hyprland/workspaces": {
+      "format": "{icon}",
+      "tooltip": false,
+      "all-outputs": true,
+      "format-icons": {
+      "urgent": "󰞏",
+      "active": "󰐝",
+      "default": "󱍢"
+      }
+    },
+    "custom/day": {
+      "format": "{}",
+      "return-type": "json",
+      "exec": "~/dotfiles/scripts/day_waybar.sh",
+      "tooltip": false
+    },
+    "custom/time": {
+      "format": " {}",
+      "return-type": "json",
+      "exec": "~/dotfiles/scripts/time_waybar.sh",
+      "tooltip": false
+    },
+    "custom/date": {
+      "format": " {}",
+      "return-type": "json",
+      "exec": "~/dotfiles/scripts/date_waybar.sh",
+      "tooltip": false
+    },
+    "group/timedata":{
+      "orientation": "inherit",
+      "modules": [
+        "custom/day",
+        "custom/time",
+        "custom/date"
+      ]
+    },
+    "custom/opengpt": {
+      "format": "󰧑",
+      "on-click": "~/dotfiles/scripts/opengpt_waybar.sh",
+      "tooltip": false
+    },
+}
