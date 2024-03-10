@@ -4,6 +4,7 @@
 # Path to your oh-my-zsh installation.
 export ZSH="$HOME/.oh-my-zsh"
 export HOSTNAME="Makoto"
+export ELECTRON_OZONE_PLATFORM_HINT="auto"
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
@@ -127,6 +128,7 @@ alias ls="exa --icons -F -H --group-directories-first --git -1"
 alias "lsa"="exa -la --icons -F -H --group-directories-first --git -1"
 alias "tree"="exa -T --color=always --group-directories-first --icons"
 alias "trea"="exa -aT --color=always --group-directories-first --icons"
+alias "cdot"="cp ~/Escritorio/obsi/ObsidianVault/dotfiles.md ~/dotfiles/README.md"
 
 pokemon-colorscripts -n slowpoke --no-title
 

@@ -50,6 +50,7 @@ pacman_apps=(
   'glow'
   'miller'
   'github-cli'
+  'obsidian'
 )
 
 PROMPT_TIMEOUT=15 # When user is prompted for input, skip after x seconds
