@@ -54,12 +54,16 @@ cargo build --release --no-default-features --features=wayland
 ### Pywal
 ```
 yay -S python-pywalfox
-pywalfox install
+sudo pywalfox install
 moz-extension://8a2443cd-ba37-413c-9fc1-cf861e75dbe8/ui/settings.html
 ```
 
 ### Docker 
 ```
-systemctl enable docker
-systemctl start docker
+sudo systemctl enable docker
+sudo systemctl start docker
 ```
+
+git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
+
+git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting

@@ -6,14 +6,14 @@
 
  #outer-box {
  border-radius: 10px;
- background: linear-gradient( to right , #DAA1D7 , #86CDFC );
+ background: linear-gradient( to right , #D8A797 , #BBC8AD );
  padding: 4px;
  }
 
  #input {
- background-color: #cae4ee;
+ background-color: #e9dfcc;
  border-radius: 5px;
- color: #B271C0;
+ color: #776386;
  padding: 0.25em;
  border: none
  box-shadow: none;
@@ -30,27 +30,27 @@
  }
 
  #img {
- border-right: 3px solid #AE9EBD;
+ border-right: 3px solid #AA7694;
  }
 
  #text {
- color: #B271C0;
+ color: #776386;
  font-weight: lighter;
  }
 
  #text:selected {
  font-family: 'IntoneMonoNF';
- color: #D097A1;
+ color: #A79C9F;
  font-weight: normal;
  }
 
  #entry {
- background-color: rgba( 202 , 228 , 238 , 0.6 );
+ background-color: rgba( 233 , 223 , 204 , 0.6 );
  padding: 0.30em;
  }
 
  #entry:selected {
- background: linear-gradient( 10deg , #cae4ee , #DAA1D7 );
+ background: linear-gradient( 10deg , #e9dfcc , #D8A797 );
  }
 
  image {

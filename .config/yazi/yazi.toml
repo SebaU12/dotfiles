@@ -25,6 +25,6 @@ ueberzug_offset = [ 0, 0, 0, 0 ]
 
 [plugin]
 prepend_previewers = [
-  { name = "*.md", exec = "glow" },
-  { mime = "text/csv", exec = "miller"},
+  { name = "*.md", run= "glow" },
+  { mime = "text/csv", run= "miller"},
 ]
