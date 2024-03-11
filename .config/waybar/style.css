@@ -76,7 +76,7 @@ window#waybar {
   min-width: 45px;
 }
 
-#custom-opengpt{
+#custom-opengpt, #custom-screenshot  {
   font-size: 20px;
   font-weight: bold;
   border-radius: 10px;

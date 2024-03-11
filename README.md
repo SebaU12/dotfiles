@@ -1,4 +1,4 @@
-## Dependencies 
+## Dependencias 
 ### Wallpaper swww
 ```
 yay -S swww
@@ -46,6 +46,8 @@ yay pfetch
 git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
 ```
 
+Instalar plugins de tmux: C-a + I
+
 ### EWW
 ```
 git clone https://github.com/elkowar/eww
@@ -67,3 +69,22 @@ sudo systemctl start docker
 git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
 
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
+
+### SDDM 
+```
+sudo systemctl enable sddm.service 
+```
+En ```/etc/sddm.conf.d```
+```
+DisplayServer=wayland 
+ReuseSession=false
+```
+
+En ```usr/share/sddm/scripts``` agregar
+```
+export XDG_CURRENT_DESKTOPS=wayland
+export WLR_NO_HARDWARE_CURSORS=1
+export WLR_RENDERER_ALLOW_SOFTWARE=1
+```
+
+

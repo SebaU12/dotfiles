@@ -11,6 +11,6 @@ while true; do
   printf '{"text": "%s", "class": "white"}\n' "$date_format" | stdbuf -oL jq --unbuffered --compact-output . >&3
 
   # Esperar 1 segundo antes de la siguiente iteración
-  sleep 1000000
+  sleep 1
 done
 

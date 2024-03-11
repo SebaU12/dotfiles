@@ -29,5 +29,5 @@ while true; do
     day_icon=" $capitalized_day"
     printf '{"text": "%s"}\n' "$day_icon" | jq --unbuffered --compact-output .
   fi
-  sleep 10000
+  sleep 1 
 done

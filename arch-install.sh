@@ -51,6 +51,13 @@ pacman_apps=(
   'miller'
   'github-cli'
   'obsidian'
+  'xdg-desktop-portal' 
+  'xdg-desktop-portal-wlr'
+  'grim'
+  'slurp'
+  'wl-clipboard'
+  'swappy'
+  'sddm'
 )
 
 PROMPT_TIMEOUT=15 # When user is prompted for input, skip after x seconds
