@@ -6,14 +6,14 @@
 
  #outer-box {
  border-radius: 10px;
- background: linear-gradient( to right , #DAA1D7 , #86CDFC );
+ background: linear-gradient( to right , #B09590 , #C9A291 );
  padding: 4px;
  }
 
  #input {
- background-color: #cae4ee;
+ background-color: #ded2cc;
  border-radius: 5px;
- color: #B271C0;
+ color: #956F65;
  padding: 0.25em;
  border: none
  box-shadow: none;
@@ -30,27 +30,27 @@
  }
 
  #img {
- border-right: 3px solid #AE9EBD;
+ border-right: 3px solid #A3847C;
  }
 
  #text {
- color: #B271C0;
+ color: #956F65;
  font-weight: lighter;
  }
 
  #text:selected {
  font-family: 'IntoneMonoNF';
- color: #D097A1;
+ color: #747484;
  font-weight: normal;
  }
 
  #entry {
- background-color: rgba( 202 , 228 , 238 , 0.6 );
+ background-color: rgba( 222 , 210 , 204 , 0.6 );
  padding: 0.30em;
  }
 
  #entry:selected {
- background: linear-gradient( 10deg , #cae4ee , #DAA1D7 );
+ background: linear-gradient( 10deg , #ded2cc , #B09590 );
  }
 
  image {
