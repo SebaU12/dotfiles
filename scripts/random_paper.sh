@@ -12,7 +12,7 @@ if [ -d "$wallpaper_dir" ]; then
 			random_wp="${wallpapers[RANDOM % ${#wallpapers[@]}]}"
 			if [ "$random_wp" != "$file_path" ]; then
 				swww img $random_wp --transition-step 20
-				wal -i "$random_wp" -q
+				wal -a 75 -i "$random_wp" -q
 				killall waybar
 				waybar
 				echo "Ruta del wallpaper: $random_wp"

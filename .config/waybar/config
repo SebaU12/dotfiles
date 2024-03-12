@@ -6,7 +6,7 @@
     "modules-left": ["custom/arch", "hyprland/workspaces"],
     "modules-center": ["group/timedata"],
     //"modules-right": ["mpd", "idle_inhibitor", "pulseaudio", "network", "cpu", "memory", "temperature", "backlight", "keyboard-state", "sway/language", "battery", "battery#bat2", "clock", "tray"],
-    "modules-right": ["custom/opengpt", "custom/screenshot"],
+    "modules-right": ["custom/opengpt", "custom/screenshot", "custom/battery", "custom/sound"],
     // Modules configuration
     "custom/arch":{
       "format":"󰣇",
@@ -56,6 +56,19 @@
     "custom/screenshot": {
       "format": "",
       "on-click": "~/dotfiles/scripts/screenshot_waybar.sh",
+      "tooltip": false
+    },
+    "custom/battery": {
+      "format": "{}",
+      "return-type": "json",
+      "exec": "~/dotfiles/scripts/battery_waybar.sh",
+      "tooltip": false
+    },
+    "custom/sound": {
+      "format": "{}",
+      "return-type": "json",
+      "exec": "~/dotfiles/scripts/sound_waybar.sh",
+      "on-click": "~/dotfiles/scripts/sound_click_waybar.sh",
       "tooltip": false
     },
 }

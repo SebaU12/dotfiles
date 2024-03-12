@@ -87,4 +87,8 @@ export WLR_NO_HARDWARE_CURSORS=1
 export WLR_RENDERER_ALLOW_SOFTWARE=1
 ```
 
+systemctl --user start pipewire
+systemctl --user enable pipewire
+systemctl --user start pipewire-pulse.service
+systemctl --user enable pipewire-pulse.service
 

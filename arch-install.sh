@@ -8,6 +8,7 @@ RESET='\033[0m'
 
 pacman_apps=(
   # Essentials
+  'man'
   'git'           # Version controll
   'neovim'        # Text editor
   'yazi'        # Directory browser
@@ -58,6 +59,10 @@ pacman_apps=(
   'wl-clipboard'
   'swappy'
   'sddm'
+  'pipewire'
+  'pipewire-pulse'
+  'pipewire-audio'
+  'pipewire-alsa'
 )
 
 PROMPT_TIMEOUT=15 # When user is prompted for input, skip after x seconds

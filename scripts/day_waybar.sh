@@ -1,6 +1,5 @@
 #!/bin/bash
 
-
 # Volver mayuscula primera letra
 ucfirst() {
   echo "$1" | awk '{print toupper(substr($0, 1, 1)) tolower(substr($0, 2))}'
