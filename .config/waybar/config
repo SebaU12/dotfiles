@@ -6,7 +6,7 @@
     "modules-left": ["custom/arch", "hyprland/workspaces"],
     "modules-center": ["group/timedata"],
     //"modules-right": ["mpd", "idle_inhibitor", "pulseaudio", "network", "cpu", "memory", "temperature", "backlight", "keyboard-state", "sway/language", "battery", "battery#bat2", "clock", "tray"],
-    "modules-right": ["custom/opengpt", "custom/screenshot", "custom/battery", "custom/sound"],
+    "modules-right": ["custom/opengpt", "custom/screenshot", "custom/battery", "custom/sound", "tray"],
     // Modules configuration
     "custom/arch":{
       "format":"󰣇",

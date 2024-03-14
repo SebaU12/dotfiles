@@ -92,3 +92,6 @@ systemctl --user enable pipewire
 systemctl --user start pipewire-pulse.service
 systemctl --user enable pipewire-pulse.service
 
+
+yay nm-connection-editor
+yay network-manager-apple

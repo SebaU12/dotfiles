@@ -133,3 +133,6 @@ alias "cdot"="cp ~/Escritorio/obsi/ObsidianVault/Dotfiles.md ~/dotfiles/README.m
 pokemon-colorscripts -n slowpoke --no-title
 
 export PATH=$PATH:/home/makoto/Escritorio/repositories/eww/target/release
+
+export CC=/usr/bin/gcc-4.8 
+export CXX=/usr/bin/g++-4.8
